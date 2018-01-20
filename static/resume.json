@@ -1,0 +1,221 @@
+{
+  "name":"赵龙",
+  "sex":"男",
+  "birthday":"1993-11-14",
+  "workSince":"2014-12-01",
+  "exp":"3年",
+  "nickname":"赵龙",
+  "firstName":"long",
+  "lastName":"Zhao",
+  "slogan":"追求专业的前端开发者",
+  "tips":"Ctrl+p可打印本简历",
+  "education":"大专",
+  "school": "武汉软件工程职业学院",
+  "phone":13545022215,
+  "location":"Shenzhen·China",
+  "qq":{
+    "number":"410992025"
+  },
+  "website":"",
+  "github":"https://github.com/zilonger",
+  "email":"13545022215@163.com",
+  "intro":{
+    "content":[
+      "熟悉前端项目构建，有基于 vue 的产品开发经验，有hybrid APP和微信，移动端开发经验。",
+      "喜欢开源，热爱前端。了解node.js及服务端开发。熟悉前后端分离和 restful 的开发模式，掌握基于git的项目管理协作。",
+      "了解React和Angular等热门前端开发框架，熟悉webpack前端构建工具。",
+      "对最新前沿技术 PWA、WebAssembly及 区块链 感兴趣。"
+    ],
+    "technology":{
+      "title":"用过的技术栈：",
+      "content":[
+        "scss","bootstrap/element-ui","vue","TypeScript","node.js","angular/react","express","webpack","Weex","apicloud"
+      ]
+    }
+  },
+  "experience":[
+    {
+      "time":"2016.12-2018.02",
+      "title":"一卡通",
+      "intro":"WebApp前端开发",
+      "description":"主要负责技术选型，项目搭建以及web app项目维护，前端优化及新技能探索。规划和实现整个前端的研发到交付流程，提高了前后端合作效率。实现了前后端分离开发模式。",
+      "tips":[
+        {
+          "title":"主要业绩：",
+          "content":[
+            "在项目中运用 vue 和 webpack 等技术实现前端自动化构建",
+            "规划和实现了前端的研发到交付流程的的优化，实现前后端分离。",
+            "针对老旧项目用vue重构优化，推动新技术在项目中应用"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "node.js","vue","scss","webpack","bootstrap"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"2014.12-2016.12",
+      "title":"也觉网",
+      "intro":"前端开发",
+      "description":"实习期间加入公司后，先后从事pc端页面切图，交互动画开发以及基于apicloud平台的Hybrid app开发。",
+      "tips":[
+        {
+          "title":"主要业绩：",
+          "content":[
+            "开发也觉网pc站点页面UI和交互，高保真切图UI设计稿。",
+            "基于apicloud平台运用前端技术，开发android和ios端 Hybrid app,并上线安卓应用商店和app store",
+            "微信公众号的开发。",
+            "利用工作之余学习并应用gulp等前端自动化构建工具。"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "javascript","html","css","gulp","bootstrap","apicloud"
+          ]
+        }
+      ]
+    }
+  ],
+  "skill":[
+    {
+      "name":"JavaScript/ES6",
+      "percent":"掌握",
+      "progress": "80%"
+    },
+    {
+      "name":"Css",
+      "percent":"掌握",
+      "progress": "80%"
+    },
+    {
+      "name":"Vue",
+      "percent":"掌握",
+      "progress": "80%"
+    },
+    {
+      "name":"Nodejs",
+      "percent":"了解",
+      "progress": "60%"
+    },
+    {
+      "name":"Element UI",
+      "percent":"熟悉",
+      "progress": "70%"
+    },
+    {
+      "name":"Angular",
+      "percent":"了解",
+      "progress": "60%"
+    },
+    {
+      "name":"React",
+      "percent":"了解",
+      "progress": "60%"
+    },
+    {
+      "name":"PhotoShop",
+      "percent":"熟悉",
+      "progress": "70%"
+    }
+  ],
+  "project":[
+    {
+      "time":"2017.09-2018.01",
+      "title":"固力士合伙人平台",
+      "intro":"一个合伙人模式交易平台",
+      "description":"一个交易平台，包含合伙人和分销模式，和深圳建材企业固力士合作，打造一个商品交易的合伙人平台。",
+      "tips":[
+        {
+          "title":"实现的主要功能：",
+          "content":[
+            "平台微信端h5开发",
+            "基于vue整体项目搭建，git版本管理",
+            "实现购物车，商品规格选择，收货地址管理等诸多业务功能。",
+            "将微信端h5整体内嵌至客户端app中，适配页面显示"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "node.js","vue","css","webpack","git"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"2017.07-2017.09",
+      "title":"合伙人App",
+      "intro":"一个合伙人模式交易平台客户端",
+      "description":"合伙人交易平台客户端，包括android和ios两个端。基于vue+apicloud打包平台，开发混合式应用",
+      "tips":[
+        {
+          "title":"实现的主要功能：",
+          "content":[
+            "实现 收益及返利点，分享推广等主要功能点",
+            "基于打包平台将h5应用打包为混合应用，实现app分享和支付等功能",
+            "开发app界面交互效果，优化产品体验。"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "javascript","vue","css","apicloud","android/ios"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"2015.02-2016.02",
+      "title":"也觉网",
+      "intro":"一个O2O搬家服务平台",
+      "description":"一个主打搬家业务的O2O服务平台，主要业务为pc站点，基于当时火热的O2O模式进行在线找搬家公司等服务。",
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "javascript","bootstrap","css","html","jquery"
+          ]
+        }
+      ]
+    }
+  ],
+  "usually":[
+    {
+      "name":"GitHub",
+      "link":"https://github.com/zilonger",
+      "description":"分享代码 结交志同道合的朋友"
+    },
+    {
+      "name":"知乎·前端开发话题",
+      "link":"https://www.zhihu.com/topic/19550901/hot",
+      "description":"搜索解决一些疑问 探索新奇"
+    },
+    {
+      "name":"MDN",
+      "link":"https://developer.mozilla.org",
+      "description":"查阅技术文档"
+    },
+    {
+      "name":"segmentfault",
+      "link": "https://segmentfault.com/",
+      "description":"解决问题 分享经验"
+    },
+    {
+      "name":"掘金",
+      "link":"https://juejin.im/",
+      "description":"学习进步 了解最新开发动向"
+    }
+  ]
+}
