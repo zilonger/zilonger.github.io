@@ -2,7 +2,7 @@
   <div class="main-container" v-show="$parent.loading" style="display: none;">
     <div class="useful-link no-print">
       <!--<a class="theme-link" href="/index2.html"></a>-->
-      <a class="github-button" href="https://github.com/eternityspring/eternityspring.github.io" title="查看源码">
+      <a class="github-button" href="https://github.com/zilonger/zilonger.github.io" title="查看项目">
         <img src="/static/images/star.svg" alt="Github"><span>Star</span>
       </a>
     </div>
@@ -308,8 +308,7 @@
 </template>
 
 <script>
-  /* eslint-disable indent,indent,space-before-function-paren */
-
+  /* eslint-disable indent,indent,space-before-function-paren,semi */
   export default {
     name: 'front',
     data() {
@@ -359,3 +358,6 @@
     }
   }
 </script>
+
+<style lang="scss">
+</style>

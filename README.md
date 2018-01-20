@@ -1,25 +1,20 @@
-> a vue2.0 blog
+## 简介
+一份前端开发者的简历。
+## 描述
+基于开源项目开发，分 dev 分支和 master 主分支。
+vue-cli搭建，技能点：vue2.0+vue-router+vue-resource
+### 初始化项目
+clone项目，进入dev分支
 
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader)
+    npm install
+### 运行
+    npm run dev
+### 编译
+    npm run build
+访问：http://localhost:8080/
+### 自定义简历
+修改 static 目录下 resume.json 文件内容即可。
+### 在线预览
+[https://zilonger.github.io](https://zilonger.github.io) 在浏览器中按 ctrl+p 可打印简历
+## 其他
+修改 /scss/style.scss 中的变量可更改样式主题。
