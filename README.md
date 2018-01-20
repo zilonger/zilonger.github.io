@@ -2,7 +2,7 @@
 一份前端开发者的简历。
 ## 描述
 基于开源项目开发，分 dev 分支和 master 主分支。
-vue-cli搭建，技能点：vue2.0+vue-router+vue-resource
+vue-cli搭建，相关技能：vue2.0+vue-router+vue-resource+sass
 ### 初始化项目
 clone项目，进入dev分支
 

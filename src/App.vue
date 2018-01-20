@@ -16,17 +16,19 @@
         </rect>
       </svg>
     </div>
-    <router-view loadingStatus="loading" />
+    <router-view loadingStatus="loading"/>
   </div>
 </template>
 
 <script>
-export default {
-  name: 'app',
-  data(){
-    return {
-      loading:false,
+  /* eslint-disable indent */
+
+  export default {
+    name: 'app',
+    data() {
+      return {
+        loading: false,
+      }
     }
   }
-}
 </script>

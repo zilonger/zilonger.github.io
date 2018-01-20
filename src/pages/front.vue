@@ -2,7 +2,7 @@
   <div class="main-container" v-show="$parent.loading" style="display: none;">
     <div class="useful-link no-print">
       <!--<a class="theme-link" href="/index2.html"></a>-->
-      <a class="github-button" href="https://github.com/zilonger/zilonger.github.io" title="查看项目">
+      <a class="github-button" target="_blank" href="https://github.com/zilonger/zilonger.github.io" title="查看项目">
         <img src="/static/images/star.svg" alt="Github"><span>Star</span>
       </a>
     </div>
@@ -13,7 +13,7 @@
         <header class="header">
           <div class="header-box">
             <div class="avatar wow inShow no-print">
-              <img src="/static/images/logo.jpg" alt="logo" class="img-responsive">
+              <img src="/static/images/head.jpg" alt="head" class="img-responsive">
             </div>
             <h1 class="name text-center wow inShow no-print">{{userInfo.nickname}}</h1>
             <h1 class="name text-center hide show-print-block">{{userInfo.name}}</h1>
@@ -48,12 +48,10 @@
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
-                  <a class="item wow inShow" data-wow-delay="0.55s" :href="userInfo.website" target="_blank">
+                  <div class="item wow inShow" data-wow-delay="0.5s" :href="'mailto:'+userInfo.email">
                     <h4>经验</h4>
-                    <div class="info">
-                      {{userInfo.exp[0]+(calcDate(userInfo.workSince)-1)+userInfo.exp[1]+calcDate(userInfo.workSince)+userInfo.exp[2]}}
-                    </div>
-                  </a>
+                    <div class="info">{{userInfo.exp}}</div>
+                  </div>
                 </div>
               </div>
               <div class="row">
@@ -65,14 +63,20 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.65s">
-                    <h4>QQ</h4>
-                    <div class="info">{{userInfo.qq.number}}</div>
+                    <h4>Email</h4>
+                    <div class="info">{{userInfo.email}}</div>
                   </div>
                 </div>
-                <div class="col-md-6 col-lg-3">
+                <!--<div class="col-md-6 col-lg-3">
                   <a class="item wow inShow" data-wow-delay="0.7s" :href="userInfo.website" target="_blank">
                     <h4>Website</h4>
                     <div class="info">{{userInfo.website}}</div>
+                  </a>
+                </div>-->
+                <div class="col-md-6 col-lg-3">
+                  <a class="item wow inShow" data-wow-delay="0.75s" :href="userInfo.github" target="_blank">
+                    <h4>School</h4>
+                    <div class="info">{{userInfo.school}}</div>
                   </a>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -174,7 +178,7 @@
                   <span class="num text-light">{{s.percent}}</span>{{s.name}}
                 </div>
                 <div class="progress">
-                  <div class="progress-bar wow progressShow" :style="'width:'+s.percent"></div>
+                  <div class="progress-bar wow progressShow" :style="'width:'+s.progress"></div>
                 </div>
               </div>
             </div>
@@ -230,10 +234,10 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">常逛&nbsp;/&nbsp;
+            <h2 class="title">常逛网站&nbsp;/&nbsp;
               <small><i>Usually</i></small>
             </h2>
-            <div class="description">经常逛的技术或者设计相关网站</div>
+            <div class="description">经常逛的技术相关网站</div>
           </div>
         </header>
         <div class="section-content">
@@ -314,7 +318,7 @@
     data() {
       return {
         userInfo: {
-          exp: [],
+          exp: '',
           qq: {},
           intro: {
             content: [],
