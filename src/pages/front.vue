@@ -98,7 +98,7 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">介绍&nbsp;/&nbsp;
-              <small><i>Intro</i></small>
+              <small>Intro</small>
             </h2>
             <div class="description">介绍一些个人基本情况</div>
           </div>
@@ -123,7 +123,7 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">工作经验&nbsp;/&nbsp;
-              <small><i>Experience</i></small>
+              <small>Experience</small>
             </h2>
             <div class="description">不同时期简短的从业经历介绍</div>
           </div>
@@ -165,7 +165,7 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">技能&nbsp;/&nbsp;
-              <small><i>Skills</i></small>
+              <small>Skills</small>
             </h2>
             <div class="description">我所掌握的工具和技术栈</div>
           </div>
@@ -193,7 +193,7 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">项目经验&nbsp;/&nbsp;
-              <small><i>Experience</i></small>
+              <small>Experience</small>
             </h2>
             <div class="description">近期主要做过的一些项目</div>
           </div>
@@ -235,7 +235,7 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">常逛网站&nbsp;/&nbsp;
-              <small><i>Usually</i></small>
+              <small>Usually</small>
             </h2>
             <div class="description">经常逛的技术相关网站</div>
           </div>
@@ -265,7 +265,7 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">联系&nbsp;/&nbsp;
-              <small><i>Contact</i></small>
+              <small>Contact</small>
             </h2>
             <div class="description">通过这些信息可以联系到我</div>
           </div>
