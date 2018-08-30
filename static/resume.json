@@ -3,7 +3,7 @@
   "sex":"男",
   "birthday":"1993-11-14",
   "workSince":"2014-12-01",
-  "exp":"3年",
+  "exp":"3.5年",
   "nickname":"赵龙",
   "firstName":"long",
   "lastName":"Zhao",
@@ -24,16 +24,40 @@
       "熟悉前端项目构建，有基于 vue 的产品开发经验，有hybrid APP和微信，移动端开发经验。",
       "喜欢开源，热爱前端。了解node.js及服务端开发。熟悉前后端分离和 restful 的开发模式，掌握基于git的项目管理协作。",
       "了解React和Angular等热门前端开发框架，熟悉webpack前端构建工具。",
-      "对最新前沿技术 PWA、WebAssembly及 区块链 感兴趣。"
+      "对最新前沿技术 PWA、WebAssembly及视频直播行业感兴趣。"
     ],
     "technology":{
       "title":"用过的技术栈：",
       "content":[
-        "scss","bootstrap/element-ui","vue","TypeScript","node.js","angular/react","express","webpack","Weex","apicloud"
+        "scss/less","iview/element-ui","vue","TypeScript","node.js","angular/react","express","pm2","webpack","Weex","apicloud"
       ]
     }
   },
   "experience":[
+    {
+      "time":"2018.02-至今",
+      "title":"比银集团",
+      "intro":"前端开发工程师",
+      "description":"主要负责官网功能开发，项目维护。针对项目架构进行优化升级，包括基于express框架的exx.com(国内备用域名exxvip.com)开发维护 和 基于iview框架管理后台整体搭建，结合产品需求不断提升网站性能。",
+      "tips":[
+        {
+          "title":"主要业绩：",
+          "content":[
+            "针对js脚本加载耗时问题，引入requirejs异步加载，提升网站加载速度",
+            "express+ejs共用vue组件，采用服务端渲染实现多语言",
+            "将交易K线页面基于vuejs单页重构，提升用户体验"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "express","requirejs","vue/vuex","less","webpack","iview"
+          ]
+        }
+      ]
+    },
     {
       "time":"2016.12-2018.02",
       "title":"一卡通",
@@ -59,7 +83,7 @@
       ]
     },
     {
-      "time":"2014.12-2016.12",
+      "time":"2014.12-2016.11",
       "title":"也觉网",
       "intro":"前端开发",
       "description":"实习期间加入公司后，先后从事pc端页面切图，交互动画开发以及基于apicloud平台的Hybrid app开发。",
@@ -127,6 +151,31 @@
     }
   ],
   "project":[
+    {
+      "time":"2018.02-至今",
+      "title":"EXX数字货币交易平台",
+      "intro":"全球TOP10的数字资产交易平台",
+      "description":"EXX面向全球提供比特币、以太坊、莱特币、以太坊经典等多种数字货币交易服务，是安全可信赖的数字货币交易网，EXX使用多重安全防护技术打造金融级的交易平台。",
+      "tips":[
+        {
+          "title":"实现的主要功能：",
+          "content":[
+            "开发及维护网站整体内容，不断提升网站体验",
+            "与服务端协作，重构开发网站全部api接口，数据对接",
+            "优化交易K线，采用vue单页模式重构交易页面，提升响应速度",
+            "对官网管理后台进行整体规划重构，基于iview框架，完成功能迁移上线"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "express","ejs","less","webpack","vue/iview","requirejs"
+          ]
+        }
+      ]
+    },
     {
       "time":"2017.09-2018.01",
       "title":"固力士合伙人平台",
