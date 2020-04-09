@@ -13,7 +13,7 @@
         <header class="header">
           <div class="header-box">
             <div class="avatar wow inShow no-print">
-              <img src="/static/images/head.jpg" alt="head" class="img-responsive">
+              <img src="/static/images/resume.jpg" alt="head" class="img-responsive">
             </div>
             <h1 class="name text-center wow inShow no-print">{{userInfo.nickname}}</h1>
             <h1 class="name text-center hide show-print-block">{{userInfo.name}}</h1>
@@ -43,8 +43,8 @@
                 </div>
                 <div class="col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.5s" :href="'mailto:'+userInfo.email">
-                    <h4>学历</h4>
-                    <div class="info">{{userInfo.education}}</div>
+                    <h4>专业</h4>
+                    <div class="info">{{userInfo.major}}</div>
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
@@ -57,7 +57,7 @@
               <div class="row">
                 <div class="col-md-6 col-lg-3">
                   <div class="item wow inShow" data-wow-delay="0.6s">
-                    <h4>Phone</h4>
+                    <h4>电话</h4>
                     <address class="info">{{userInfo.phone}}</address>
                   </div>
                 </div>
@@ -75,7 +75,7 @@
                 </div>-->
                 <div class="col-md-6 col-lg-3">
                   <a class="item wow inShow" data-wow-delay="0.75s" :href="userInfo.github" target="_blank">
-                    <h4>School</h4>
+                    <h4>学校</h4>
                     <div class="info">{{userInfo.school}}</div>
                   </a>
                 </div>
@@ -100,7 +100,7 @@
             <h2 class="title">介绍&nbsp;/&nbsp;
               <small>Intro</small>
             </h2>
-            <div class="description">介绍一些个人基本情况</div>
+            <div class="description">个人基本情况</div>
           </div>
         </header>
         <div class="section-content">
@@ -122,10 +122,10 @@
         <div class="section-bg section-content-bg"></div>
         <header class="header">
           <div class="content-box">
-            <h2 class="title">工作经验&nbsp;/&nbsp;
-              <small>Experience</small>
+            <h2 class="title">工作经历&nbsp;/&nbsp;
+              <small>Worked</small>
             </h2>
-            <div class="description">不同时期简短的从业经历介绍</div>
+            <div class="description">简短的从业经历介绍</div>
           </div>
         </header>
         <div class="section-content">
@@ -193,7 +193,7 @@
         <header class="header">
           <div class="content-box">
             <h2 class="title">项目经验&nbsp;/&nbsp;
-              <small>Experience</small>
+              <small>Experiences</small>
             </h2>
             <div class="description">近期主要做过的一些项目</div>
           </div>
@@ -275,7 +275,7 @@
             <div class="row">
               <div class="col-md-6 col-lg-3">
                 <div class="item">
-                  <h4>Phone</h4>
+                  <h4>电话</h4>
                   <div class="info">{{userInfo.phone}}</div>
                 </div>
               </div>
@@ -287,7 +287,7 @@
               </div>
               <div class="col-md-6 col-lg-3">
                 <div class="item">
-                  <h4>Location</h4>
+                  <h4>地址</h4>
                   <div class="info">{{userInfo.location}}</div>
                 </div>
               </div>

@@ -133,7 +133,7 @@ ul{
   }
   .section-content{
     width:70%;
-    padding: 4rem 3rem 4rem 5rem;
+    padding: 4rem 3rem 4rem 4rem;
     background: $bg2;
     z-index: 2;
     .content-box{
@@ -153,10 +153,10 @@ ul{
 }
 .section-header{
   .header{
-    height:100vh;
+    height:80vh;
   }
   .section-content{
-    height:100vh;
+    height:80vh;
   }
   .avatar{
     border-radius: 20rem;
@@ -166,13 +166,13 @@ ul{
   }
   .name{
     font-size:2rem;
-    font-weight: 200;
+    font-weight: 500;
     margin-top:1rem;
     margin-bottom: 4rem;
   }
   .name-slogan{
     position: relative;
-    top:-2rem;
+    top:-5rem;
   }
   .description{
     font-size:1.2rem;
@@ -228,6 +228,7 @@ ul{
     }
     .title{
       font-size:1.2rem;
+      font-weight: bold;
     }
     .description{
       color: $text-gray;
@@ -298,6 +299,11 @@ ul{
     }
   }
   .section-header{
+    .name-slogan{
+      top:-2rem;
+    }
+  }
+  .section-header{
     .header{
       height:auto;
     }
@@ -354,6 +360,12 @@ ul{
     display: block!important;
     opacity: 1!important;
   }
+  .section {
+    margin-bottom: 2rem;
+  }
+  .section .header .title {
+    margin-bottom: 1.5rem;
+  }
   .section .section-content{
     padding: 0 12px;
   }
@@ -391,7 +403,7 @@ ul{
     }
   }
   .experience .item{
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
   }
 }
 

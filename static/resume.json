@@ -3,16 +3,17 @@
   "sex":"男",
   "birthday":"1993-11-14",
   "workSince":"2014-12-08",
-  "exp":"4年",
+  "exp":"5年",
   "nickname":"赵龙",
-  "firstName":"long",
+  "firstName":"Long",
   "lastName":"Zhao",
   "slogan":"追求专业和效率的前端开发者",
   "tips":"Ctrl+p可打印本简历",
   "education":"大专",
+  "major":"嵌入式系统工程",
   "school": "武汉软件工程职业学院",
   "phone":13545022215,
-  "location":"Shenzhen·China",
+  "location":"深圳",
   "qq":{
     "number":"410992025"
   },
@@ -21,21 +22,42 @@
   "email":"13545022215@163.com",
   "intro":{
     "content":[
-      "喜欢代码，喜欢前端，不懂后端的前端不是好程序员。",
-      "熟悉前端项目构建，有基于 Vue 的产品开发经验，了解React和Angular/Typescript等热门前端开发框架，有hybrid APP和微信，移动端开发经验。",
-      "了解Node.js及服务端开发。熟悉前后端分离和 restful 的开发模式，掌握基于git的项目管理协作。",
-      "对最新前沿技术 PWA、WebAssembly等感兴趣。"
+      "熟悉前端工程化，有基于Vue技术栈的产品开发经验，了解React和Angular前端开发框架，有hybrid APP和微信，移动端开发经验。",
+      "了解Node.js及服务端开发。熟悉前后端分离开发模式，掌握基于git进行项目管理。"
     ],
     "technology":{
       "title":"用过的技术点：",
       "content":[
-        "scss/less","iview/element-ui","Vuejs","TypeScript","node.js","angular/react","express","pm2","webpack","Weex","apicloud"
+        "scss/less","iview/element-ui/vux","Vuejs","Nuxt.js","node.js","angular/react","express","pm2","webpack","Weex","apicloud"
       ]
     }
   },
   "experience":[
     {
-      "time":"2018.01-至今",
+      "time":"2019.03-至今",
+      "title":"深圳市点购电子商务控股股份有限公司",
+      "intro":"H5前端开发工程师",
+      "description":"主要负责H5前端应用开发，基于nuxt.js公司官网开发和维护，担任前端小组组长，协调前端工作。",
+      "tips":[
+        {
+          "title":"主要业绩：",
+          "content":[
+            "推动统一前端小组技术栈，保证各成员在项目之间配合完成开发任务。",
+            "完成项目基础结构搭建，提高开发效率。"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "element-ui","vue/vuex","axios","less","webpack","nuxt.js"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"2018.01-2019.02",
       "title":"深圳市行五者网络科技有限公司",
       "intro":"前端开发工程师",
       "description":"主要负责官网功能开发，项目维护。针对项目架构进行优化升级，包括基于express框架的开发维护 和 基于iview框架管理后台整体搭建，结合产品需求不断提升网站性能。",
@@ -91,7 +113,7 @@
         {
           "title":"主要业绩：",
           "content":[
-            "协调前端小组工作，负责公司网站前端页面，交互效果，与后端协作完成项目开发任务。",
+            "负责公司网站前端页面，交互效果，与后端协作完成项目开发任务。",
             "应用前端技术实现业务需求，把控项目进度，分配前端工作任务。",
             "基于apicloud平台，采用前端相关技术开发Hybrid App。",
             "微信公众号h5的开发。"
@@ -112,47 +134,71 @@
     {
       "name":"JavaScript/ES6",
       "percent":"掌握",
-      "progress": "80%"
+      "progress": "85%"
     },
     {
       "name":"Css",
       "percent":"掌握",
-      "progress": "80%"
+      "progress": "85%"
     },
     {
       "name":"Vue",
       "percent":"掌握",
-      "progress": "80%"
+      "progress": "85%"
     },
     {
       "name":"Nodejs",
       "percent":"了解",
-      "progress": "60%"
+      "progress": "65%"
     },
     {
       "name":"Element UI",
       "percent":"熟悉",
-      "progress": "70%"
+      "progress": "85%"
     },
     {
       "name":"Angular",
       "percent":"了解",
-      "progress": "60%"
+      "progress": "65%"
     },
     {
       "name":"React",
       "percent":"了解",
-      "progress": "60%"
+      "progress": "65%"
     },
     {
       "name":"PhotoShop",
       "percent":"熟悉",
-      "progress": "70%"
+      "progress": "75%"
     }
   ],
   "project":[
     {
-      "time":"2018.02-至今",
+      "time":"2019.03-2020.04",
+      "title":"地方名录",
+      "intro":"地方特产，人物，景点，美食，视频介绍",
+      "description":"该项目包含了国内行政村级的地方介绍，移动端SPA应用。",
+      "tips":[
+        {
+          "title":"实现的主要功能：",
+          "content":[
+            "项目采用vux开发框架，基于vue-cli3.0工具，采用vue技术栈开发。",
+            "与原生App端对接，调用App分享功能",
+            "基于echarts.js开发地图功能"
+          ]
+        }
+      ],
+      "technology":[
+        {
+          "title":"技术栈：",
+          "content":[
+            "vux","axios","echarts","webpack","vue-router","less"
+          ]
+        }
+      ]
+    },
+    {
+      "time":"2018.02-2019.01",
       "title":"数字货币交易平台",
       "intro":"全球数字资产交易平台",
       "description":"该平台面向全球提供多种数字货币交易服务，负责项目维护及功能开发，包括管理后台开发和前端站点优化。",
@@ -172,31 +218,6 @@
           "title":"技术栈：",
           "content":[
             "express","ejs","less","webpack","vue/iview","axios","requirejs"
-          ]
-        }
-      ]
-    },
-    {
-      "time":"2017.09-2018.01",
-      "title":"固力士分销平台",
-      "intro":"合伙人模式分销平台",
-      "description":"微信公众号开发，包含合伙人和分销模式，和深圳固力士建材合作，打造一个商品交易的合伙人平台。",
-      "tips":[
-        {
-          "title":"实现的主要功能：",
-          "content":[
-            "平台微信端h5开发。",
-            "基于vue整体项目搭建，git版本管理。",
-            "实现购物车，商品规格选择，收货地址管理等诸多业务功能。",
-            "将微信端h5整体内嵌至客户端app中，适配页面显示。"
-          ]
-        }
-      ],
-      "technology":[
-        {
-          "title":"技术栈：",
-          "content":[
-            "vue","css","webpack","git","ajax"
           ]
         }
       ]
@@ -255,11 +276,6 @@
       "name":"GitHub",
       "link":"https://github.com/zilonger",
       "description":"分享代码 结交志同道合的朋友"
-    },
-    {
-      "name":"知乎·前端开发话题",
-      "link":"https://www.zhihu.com/topic/19550901/hot",
-      "description":"搜索解决一些疑问 探索新奇"
     },
     {
       "name":"MDN",
